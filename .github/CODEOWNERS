@@ -1,0 +1,8 @@
+# Default owners for everything in the repo
+* @Amivero-LLC/engineering-team
+
+# Documentation owners
+docs/ @Amivero-LLC/tech-writers
+
+# Infrastructure as Code owners
+**/terraform/ @Amivero-LLC/devops-team
