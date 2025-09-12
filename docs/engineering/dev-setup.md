@@ -1,122 +1,63 @@
-# Development Environment Setup
+# 🛠️ Amivero Development Setup Guide
 
-## Prerequisites
-- Python 3.9+
-- Node.js 16+
-- Docker 20.10+
-- Git 2.30+
-- Python Virtual Environment (recommended)
+## 🔑 Access
 
-## Getting Started
+### Request Access to Development Tools
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Amivero-LLC/amivero-dev-resources.git
-cd amivero-dev-resources
-```
+- **Confluence & Jira**: Email [helpdesk@amivero.com](mailto:helpdesk@amivero.com)
+- **GitHub**: Contact the DevOps team for repository access
 
-### 2. Set Up Python Environment
-```bash
-# Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+## 📦 Prerequisites
 
-# Install dependencies
-pip install -r requirements.txt
-```
+Before starting any project, ensure you have the following tools installed on your development machine:
 
-### 3. Install Pre-commit Hooks
-```bash
-pip install pre-commit
-pre-commit install
-```
+### Required
 
-### 4. Environment Variables
-Create a `.env` file in the project root:
-```env
-# Application Settings
-ENVIRONMENT=development
-DEBUG=True
-SECRET_KEY=your-secret-key-here
+- [Python](https://www.python.org/downloads/) 3.12 or higher
+- [Docker](https://www.docker.com/products/docker-desktop) (Latest version)
+- [Docker Compose](https://docs.docker.com/compose/install/) (Comes with Docker Desktop)
+- [AWS CLI](https://aws.amazon.com/cli/) v2 or higher
+- [Git](https://git-scm.com/downloads) (Latest version)
+- **IDE/Code Editor**:
+  - [VS Code](https://code.visualstudio.com/) (Recommended)
+  - [PyCharm](https://www.jetbrains.com/pycharm/)
+  - [Sublime Text](https://www.sublimetext.com/)
 
-# Database
-DATABASE_URL=postgresql://user:password@localhost:5432/amivero_dev
+### Optional
 
-# API Keys (if needed)
-# OPENAI_API_KEY=your-api-key
-```
+- [Postman](https://www.postman.com/downloads/) - For API testing
+- [TablePlus](https://tableplus.com/) - Database management
+- [DBeaver](https://dbeaver.io/) - Alternative database tool
 
-## Development Workflow
+## 🚀 Quick Start
 
-### Running Tests
-```bash
-# Run all tests
-pytest
-
-# Run specific test file
-pytest tests/test_module.py
-
-# Run with coverage
-pytest --cov=src tests/
-```
-
-### Code Formatting
-```bash
-# Auto-format Python code
-black .
-
-# Sort imports
-isort .
-
-# Check for style issues
-flake8
-```
-
-### Pre-commit Checks
-```bash
-# Run all pre-commit checks
-pre-commit run --all-files
-```
-
-## IDE Setup
-
-### VS Code
-Recommended extensions:
-- Python
-- Pylance
-- Prettier
-- ESLint
-- Docker
-- GitLens
-
-### PyCharm
-- Enable Black and isort as external tools
-- Configure Python interpreter to use the virtual environment
-- Enable ESLint and Prettier for frontend code
-
-## Troubleshooting
-
-### Common Issues
-1. **Dependency Conflicts**:
+1. **Clone the repository**
    ```bash
-   pip install --upgrade pip
-   pip install -r requirements.txt --no-cache-dir
+   git clone <repository-url>
+   cd <project-directory>
    ```
 
-2. **Database Connection Issues**:
-   - Verify database service is running
-   - Check `.env` file for correct credentials
-   - Run database migrations if needed
-
-3. **Frontend Build Issues**:
+2. **Set up environment variables**
    ```bash
-   cd frontend
-   npm install
-   npm run build
+   cp .env.example .env
+   # Edit .env with your configuration
    ```
 
-## Getting Help
-- Check the [FAQ](#) (coming soon)
-- Open an issue in the repository
-- Join our [Slack channel](#) (internal link)
-- Contact the engineering team at engineering@amivero.com
+3. **Start development environment**
+   ```bash
+   docker-compose up -d
+   ```
+
+## 📚 Additional Resources
+
+- [FastAPI Documentation](https://fastapi.tiangolo.com/)
+- [LocalStack Documentation](https://docs.localstack.cloud/)
+- [AWS CLI Documentation](https://docs.aws.amazon.com/cli/)
+- [Docker Documentation](https://docs.docker.com/)
+- [Git Documentation](https://git-scm.com/doc)
+
+## 🆘 Getting Help
+
+- For technical issues: `#engineering-support` on Slack
+- For access requests: [helpdesk@amivero.com](mailto:helpdesk@amivero.com)
+- For urgent matters: Contact the DevOps team on Slack
