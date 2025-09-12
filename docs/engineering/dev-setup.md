@@ -58,6 +58,5 @@ Before starting any project, ensure you have the following tools installed on yo
 
 ## 🆘 Getting Help
 
-- For technical issues: `#engineering-support` on Slack
 - For access requests: [helpdesk@amivero.com](mailto:helpdesk@amivero.com)
 - For urgent matters: Contact the DevOps team on Slack
