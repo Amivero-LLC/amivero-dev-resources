@@ -12,7 +12,7 @@
 ## General Principles
 
 ### Code Style
-- Follow the principle of least surprise
+- Follow the principle of least surprise [https://en.wikipedia.org/wiki/Principle_of_least_surprise](https://en.wikipedia.org/wiki/Principle_of_least_surprise)
 - Write self-documenting code with meaningful names
 - Keep functions small and focused (ideally < 20 lines)
 - Limit line length to 88 characters (Black standard)
@@ -22,7 +22,7 @@
 - Follow the project's established structure
 - Keep related code together
 - Separate concerns appropriately
-- Avoid circular dependencies
+- Avoid circular dependencies [https://en.wikipedia.org/wiki/Circular_dependency](https://en.wikipedia.org/wiki/Circular_dependency)
 
 ## Git Workflow
 
@@ -106,7 +106,7 @@ from .utils import helper_function
 
 ### Style
 - Use Prettier for consistent formatting
-- Use ESLint for linting
+- Use formatter for linting
 - Use TypeScript for all new projects
 - Use ES6+ features
 
@@ -164,23 +164,127 @@ def test_functionality_description():
 ## Security
 
 ### General
-- Never commit secrets or credentials
-- Use environment variables for configuration
-- Validate all user inputs
-- Use parameterized queries to prevent SQL injection
-- Implement proper authentication and authorization
+- Never commit secrets or credentials (use environment variables or secret management)
+- Validate and sanitize all user inputs
+- Implement the principle of least privilege
+- Use secure defaults for all configurations
+- Keep security headers enabled (CSP, HSTS, XSS Protection) when appropriate
 
-### Dependencies
-- Keep dependencies up to date
-- Use Dependabot for security updates
-- Audit dependencies regularly
-- Pin versions in production
+### Authentication & Authorization
+- Use OAuth 2.0 with PKCE for web/mobile apps when appropriate
+- Implement proper session management when appropriate
+- Use JWT with appropriate expiration times when appropriate
+- Implement role-based access control (RBAC) or attribute-based access control (ABAC) when appropriate
+- Enforce strong password policies when appropriate
 
 ### API Security
-- Use HTTPS for all communications
-- Implement rate limiting
-- Validate all request/response schemas
-- Use proper CORS policies
+- Use HTTPS for all communications (enforce with HSTS) when appropriate
+- Implement rate limiting and request throttling when appropriate
+- Validate all request/response schemas when appropriate
+- Use proper CORS policies (be specific with allowed origins) when appropriate
+- Implement API versioning when appropriate
+- Return generic error messages to clients when appropriate
+
+### Data Protection
+- Encrypt sensitive data at rest and in transit
+- Use parameterized queries to prevent SQL injection
+- Implement proper data validation and sanitization
+- Regular security audits and penetration testing when appropriate
+
+### Dependencies
+- Use Dependabot for security updates
+- Audit dependencies regularly (OWASP Dependency-Check)
+- Pin versions in production
+- Remove unused dependencies
+- Only use well-maintained, widely-used packages
+
+## Error Handling & Logging
+
+### General Principles
+- Fail fast and fail visibly
+- Never expose stack traces to end users
+- Include unique error codes for production issues
+- Log all security-relevant events
+
+### Error Handling
+- Use specific exception types
+- Include context in error messages
+- Implement proper error boundaries in frontend
+- Use custom error types for business logic errors
+- Document all possible error responses in APIs
+
+### Logging Standards
+- Use structured logging (JSON format)
+- Include correlation IDs in distributed systems
+- Log at appropriate levels:
+  - ERROR: System failures
+  - WARN: Unexpected but handled conditions
+  - INFO: Important business events
+  - DEBUG: Debug information
+  - TRACE: Detailed execution flow
+  - But dont log too much information in production because it can be computationally expensive
+- Never log sensitive information (PII, credentials, tokens)
+- Set up log rotation and retention policies
+
+### Monitoring & Alerting
+- Set up error tracking (Sentry, Datadog, etc.)
+- Create dashboards for key metrics
+- Set up alerts for critical errors
+- Monitor for security events
+
+## Code Review Process
+
+### Review Guidelines
+- All code must be reviewed before merging to main
+- Use the "Approve with suggestions" option when possible
+- Request changes for critical issues
+- Keep PRs small and focused (300-500 lines max)
+
+### Review Checklist
+- [ ] Code follows style guidelines
+- [ ] Tests are included and pass
+- [ ] Documentation is updated
+- [ ] Security considerations addressed
+- [ ] Performance impact considered
+- [ ] Error handling is appropriate
+- [ ] No sensitive data exposed
+
+### Review Etiquette
+- Be respectful and constructive
+- Explain the "why" behind suggestions
+- Use inline comments for specific suggestions
+- Keep discussions focused on the code
+- Recognize good patterns as well as issues
+
+## Testing Guidelines
+
+### Test Types
+- **Unit Tests**: Test individual functions/methods in isolation
+- **Integration Tests**: Test interactions between components
+- **E2E Tests**: Test complete user flows
+- **Performance Tests**: Test under load
+- **Security Tests**: SAST/DAST scanning
+
+### Test Quality
+- Follow the Arrange-Act-Assert pattern
+- Tests should be isolated and independent
+- Use meaningful test names (test_<method>_when_<condition>_then_<result>)
+- Aim for high test coverage (>80%)
+- Test edge cases and error conditions
+
+### Test Data
+- Use factories/fixtures for test data
+- Keep tests deterministic
+- Clean up test data after tests
+- Use realistic test data
+- Consider using test data builders
+
+### Test Performance
+- Keep tests fast (complete in seconds)
+- Mock external dependencies
+- Use test doubles appropriately
+- Run tests in parallel when possible
+- Monitor and optimize test suite performance
 
 ## Performance
 
