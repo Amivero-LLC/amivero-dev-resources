@@ -1,24 +1,24 @@
-# Amivero Engineering Vision 2027
+# Amivero Engineering Vision 2029
 ## Executive Summary
-By 2027, Amivero Engineering will be the premier provider of AI-powered government technology solutions, delivering measurable impact through innovative products that transform how government agencies serve citizens. Our suite of products will drive efficiency, transparency, and better decision-making across the public sector.
+By 2029, Amivero Engineering will be the premier provider of AI-powered government technology solutions, delivering measurable impact through innovative products that transform how government agencies serve citizens. Our suite of products will drive efficiency, transparency, and better decision-making across the public sector.
 
 ## Core Products & Platforms
 ### 1. Fact Finder Trainer
 **Vision**: The industry standard for training and certifying government personnel in information verification and fact-checking.
-**2027 Goals**:
+**2029 Goals**:
 - AI-powered training modules with adaptive learning paths
 - Integration with major government knowledge bases
 
 ### 2. Verdati Platform
 **Vision**: A doc processing birth certificate verification platform that transforms government data into actionable insights.
-**Frontend (2027)**:
+**Frontend (2029)**:
 - Intuitive, role-based/attribute-based dashboards
 - Real-time data visualization
 - Mobile-responsive design for field operations
 - Admin functionality
 - 99.9% uptime SLA
 
-**Backend (2027)**:
+**Backend (2029)**:
 - Scalable microservices architecture
 - AI/ML-powered analytics engine
 - FedRAMP High authorization
@@ -26,7 +26,7 @@ By 2027, Amivero Engineering will be the premier provider of AI-powered governme
 
 ### 3. Adjudicator Doc Chat
 **Vision**: The leading AI assistant for adjudicator case analysis ([ASAP Platform](https://amivero.sharepoint.com/:w:/r/sites/Growth3/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B50462bc9-e2b5-4204-859e-9a8a681961ed%7D&wdOrigin=TEAMS-MAGLEV.undefined_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1757705519513&web=1))
-**2027 Goals**:
+**2029 Goals**:
 - Natural language processing for complex adjudicator documents
 - Multi-agency compliance checking
 - Automated citation and precedent analysis
@@ -56,7 +56,7 @@ By 2027, Amivero Engineering will be the premier provider of AI-powered governme
 
 ### Innovation Strategy (Innovati)
 - **Vision**: Establish a structured innovatis that drives competitive advantage
-- **2027 Goal**: Generate 30% of new revenue from internally incubated solutions
+- **2029 Goal**: Generate 30% of new revenue from internally incubated solutions
 - **Framework**: Cross-team collaboration model with dedicated innovati budget and time allocations
 
 ## Growth Strategy
@@ -77,9 +77,10 @@ By 2027, Amivero Engineering will be the premier provider of AI-powered governme
 - 90% customer retention rate
 - Increase govt prime contracts from 9 - 12
 - 4.8/5 customer satisfaction rating
+
 - **Efficiency Gains**: Quantifiable metrics on customer time/cost savings (e.g., 50% reduction in adjudicator review time)
 - **ROI Measurement**: Projected annual savings for customers ($6M-$31M range for document solutions) 
-- **USWDS Compliance**: Standardization of all user interfaces on USWDS for government acceptance 
+- **USWDS Compliance**: Standardization of all user interfaces on USWDS or other government accepted frameworks for government acceptance 
 - **Operational Efficiency**: Frameworks for delivering high-quality solutions with lean teams 
 
 ## Next Steps
