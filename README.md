@@ -75,10 +75,6 @@ Please review our [Security Policy](docs/compliance/security-policy.md) for info
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
-
-- Engineering Team: engineering@amivero.com
-- Security Team: security@amivero.com
 
 ---
 

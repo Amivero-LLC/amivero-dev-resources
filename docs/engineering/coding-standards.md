@@ -7,7 +7,7 @@
 4. [JavaScript/TypeScript Standards](#javascripttypescript-standards)
 5. [Documentation](#documentation)
 6. [Testing](#testing)
-7. [Security](#security)
+
 
 ## General Principles
 

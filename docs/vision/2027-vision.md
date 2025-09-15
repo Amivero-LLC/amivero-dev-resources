@@ -12,14 +12,12 @@ By 2027, Amivero Engineering will be the premier provider of AI-powered governme
 **2027 Goals**:
 - AI-powered training modules with adaptive learning paths
 - Integration with major government knowledge bases
-- Certification recognized across federal agencies
-- 10,000+ trained professionals
 
 ### 2. Verdati Platform
-**Vision**: A unified birth certificate verification platform that transforms government data into actionable insights.
+**Vision**: A doc processing birth certificate verification platform that transforms government data into actionable insights.
 
 **Frontend (2027)**:
-- Intuitive, role-based dashboards
+- Intuitive, role-based/attribute-based dashboards
 - Real-time data visualization
 - Mobile-responsive design for field operations
 - Admin functionality
@@ -43,15 +41,13 @@ By 2027, Amivero Engineering will be the premier provider of AI-powered governme
 ## Engineering Excellence
 
 ### Technical Foundation
-- **Cloud-Native Architecture**: Fully containerized deployments with Kubernetes
+- **Cloud-Native Architecture**: Fully containerized deployments with Kubernetes or AWS tools
 - **AI/ML Integration**: Proprietary models fine-tuned for government use cases
 - **DevSecOps**: Automated security scanning and compliance as code
-- **Open Standards**: Commitment to open APIs and interoperability
 
 ### Team & Culture
 - **Talent Development**: Continuous learning programs and certification support
 - **Innovation Labs**: Dedicated R&D for emerging technologies
-- **Remote-First**: Global talent pool with collaborative tools
 
 ## Growth Strategy
 
@@ -64,11 +60,9 @@ By 2027, Amivero Engineering will be the premier provider of AI-powered governme
 ## Success Metrics
 - 5x revenue growth
 - 90% customer retention rate
-- 50+ government agency customers
-- 10+ patents filed
+- Increase govt prime contracts from 9 - 12
 - 4.8/5 customer satisfaction rating
 
 ## Next Steps
 - **Q2 2025**: Postmortem for Verdati after Identity Week
-- **Q3 2025**: Start work on ASAP Platform
-- **Q4 2025**: Gather more requirements for Fact Finder Trainer
+- **Q3 2025**: Gather more requirements for Fact Finder Trainer
