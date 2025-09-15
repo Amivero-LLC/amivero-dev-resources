@@ -4,21 +4,21 @@ By 2029, Amivero Engineering will be the premier provider of AI-powered governme
 
 ## Core Products & Platforms
 ### 1. Fact Finder Trainer
-**Vision**: The industry standard for training and certifying government personnel in information verification and fact-checking.
-**2029 Goals**:
+- **Vision**: The industry standard for training and certifying government personnel in information verification and fact-checking.
+- **2029 Goals**:
 - AI-powered training modules with adaptive learning paths
 - Integration with major government knowledge bases
 
 ### 2. Verdati Platform
-**Vision**: A doc processing birth certificate verification platform that transforms government data into actionable insights.
-**Frontend (2029)**:
+- **Vision**: A doc processing birth certificate verification platform that transforms government data into actionable insights.
+- **Frontend (2029)**:
 - Intuitive, role-based/attribute-based dashboards
 - Real-time data visualization
 - Mobile-responsive design for field operations
 - Admin functionality
 - 99.9% uptime SLA
 
-**Backend (2029)**:
+- **Backend (2029)**:
 - Scalable microservices architecture
 - AI/ML-powered analytics engine
 - FedRAMP High authorization
@@ -49,6 +49,7 @@ By 2029, Amivero Engineering will be the premier provider of AI-powered governme
 
 ### Team & Culture
 - **Talent Development**: Continuous learning programs and certification support
+- **AI Assisted Development**: AI-powered code generation and refactoring by 95% of engineers where projects allow
 - **Innovation Labs**: Dedicated R&D for emerging technologies
 - **Mentorship Program**: Formalized approach to developing junior talent 
 - **Leadership Development**: Clear path for technical ICs to grow into leadership roles 
@@ -61,7 +62,7 @@ By 2029, Amivero Engineering will be the premier provider of AI-powered governme
 
 ## Growth Strategy
 ### Revenue Streams
-- **SaaS subscriptions for platform access
+- **SaaS subscriptions for platform access**    
 - Professional services and training
 - Premium support and managed services
 - API access and developer tools
