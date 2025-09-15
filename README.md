@@ -81,7 +81,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <p>Made with ❤️ by the Amivero Engineering Team</p>
   <a href="https://amivero.com">
-    <img src="https://amivero.sharepoint.com/:i:/r/sites/Marketing/Shared%20Documents/Collaboration%20Space/Intern%20Projects%202024/2022-06_Amivero_Logos/amivero-logo-black(1).jpg?csf=1&web=1&e=HqUMBx"  
+    <img src="static/images/Amivero Logo_BlackTxt_WhiteFILL.png"  
     alt="Amivero Logo" width="200">
   </a>
 </div>
