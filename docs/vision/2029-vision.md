@@ -6,8 +6,8 @@ By 2029, Amivero Engineering will be the premier provider of AI-powered governme
 ### 1. Fact Finder Trainer
 - **Vision**: The industry standard for training and certifying government personnel in information verification and fact-checking.
 - **2029 Goals**:
-- AI-powered training modules with adaptive learning paths
-- Integration with major government knowledge bases
+- - AI-powered training modules with adaptive learning paths
+- - Integration with major government knowledge bases
 
 ### 2. Verdati Platform
 - **Vision**: A doc processing birth certificate verification platform that transforms government data into actionable insights.
@@ -27,24 +27,24 @@ By 2029, Amivero Engineering will be the premier provider of AI-powered governme
 ### 3. Adjudicator Doc Chat
 - **Vision**: The leading AI assistant for adjudicator case analysis ([ASAP Platform](https://amivero.sharepoint.com/:w:/r/sites/Growth3/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B50462bc9-e2b5-4204-859e-9a8a681961ed%7D&wdOrigin=TEAMS-MAGLEV.undefined_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1757705519513&web=1))
 - **2029 Goals**:
-- Natural language processing for complex adjudicator documents
-- Multi-agency compliance checking
-- Automated citation and precedent analysis
-- Integration with major case management systems
+- - Natural language processing for complex adjudicator documents
+- - Multi-agency compliance checking
+- - Automated citation and precedent analysis
+- - Integration with major case management systems
 
 ### 4. Reusable IP & Platforms
 - **Vision**: Create a portfolio of reusable components and platforms that accelerate delivery across contracts
 - **Components**: 
-- Document injection
-- Chunking
-- USWDS integration
-- SSO implementation
+- - Document injection
+- - Chunking
+- - USWDS integration
+- - SSO implementation
 - **Goals**: Reduce implementation time by 40% for new projects by leveraging pre-built components
 
 ## Engineering Excellence
 ### Technical Foundation
 - **Cloud-Native Architecture**: Fully containerized deployments with Kubernetes or AWS tools
-- **AI/ML Integration**: Proprietary models fine-tuned for government use cases
+- **AI/ML Integration**: Proprietary models fine-tuned for government use cases 
 - **DevSecOps**: Automated security scanning and compliance as code
 
 ### Team & Culture
