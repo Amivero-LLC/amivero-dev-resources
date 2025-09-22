@@ -67,6 +67,11 @@ By 2029, Amivero Engineering will be the premier provider of AI-powered governme
 - **AI Assisted Development**: AI-powered code generation and refactoring by 95% of engineers where projects allow
 - **Innovation Labs**: Dedicated R&D for emerging technologies
 - **Mentorship Program**: Formalized approach to developing junior talent
+    - **Implementation Progress (September 2025)**: Created comprehensive mentoring framework with dual approach:
+      - Self-guided mentorship document for independent career development
+      - LLM-optimized prompts for AI-assisted career guidance
+    - **Resources**: `/docs/engineering/software_engineering_self_mentoring_guide.md` and `/docs/engineering/llm_mentoring_prompts.md`
+    - **Recommended Workflow**: Engineers use self-mentoring guide for reflection and assessment, then leverage LLM prompts for deeper guidance on specific growth areas
 - **Leadership Development**: Clear path for technical ICs to grow into leadership roles
 - **Technical Leadership Council**: Forum for cross-contract solution sharing and technical direction setting
 
