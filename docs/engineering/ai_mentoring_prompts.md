@@ -407,6 +407,5 @@ Thank you for that recommendation. To ensure I'm considering all angles:
 
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
-- [LLM Patterns](https://llmpatterns.net/)
 
 This document is a living resource. Feel free to add more prompts based on your experiences and needs.
