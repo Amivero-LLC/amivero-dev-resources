@@ -73,6 +73,7 @@ By 2029, Amivero Engineering will be the premier provider of AI-powered governme
     - **Resources**: `/docs/engineering/software_engineering_self_mentoring_guide.md` and `/docs/engineering/llm_mentoring_prompts.md`
     - **Recommended Workflow**: Engineers use self-mentoring guide for reflection and assessment, then leverage LLM prompts for deeper guidance on specific growth areas
 - **Leadership Development**: Clear path for technical ICs to grow into leadership roles
+    - **Implementation Progress (September 2025)**: Finalized leadership development document with Lykia, currently under leadership review 
 - **Technical Leadership Council**: Forum for cross-contract solution sharing and technical direction setting
 
 ### Innovation Strategy
